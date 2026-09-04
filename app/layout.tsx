@@ -3,14 +3,14 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Project 1788484015687',
-  description: 'Sitio web moderno y confiable para Clínica Dental Sonrisa, diseñado para presentar servicios de odontología estética, demostrar credibilidad clínica y convertir visitantes en pacientes mediante reservas de consulta gratuita. La experiencia combina una estética cálida y premium con información clara sobre el equipo, beneficios, testimonios y tratamientos.',
+  title: 'Clínica Dental Sonrisa | Odontología Estética',
+  description: 'Diseñamos sonrisas que transforman vidas. Clínica dental especializada en odontología estética, implantes, ortodoncia invisible y blanqueamiento dental. Más de 25 años de experiencia.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body style={{ backgroundColor: '#FFFFFF', margin: 0 }}>
+    <html lang="es">
+      <body>
         {children}
       </body>
     </html>
