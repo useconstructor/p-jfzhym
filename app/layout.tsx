@@ -3,8 +3,8 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Clínica Dental Sonrisa | Odontología Estética',
-  description: 'Diseñamos sonrisas que transforman vidas. Clínica dental especializada en odontología estética, implantes, ortodoncia invisible y blanqueamiento dental. Más de 25 años de experiencia.',
+  title: 'Project 1788484015687 | Estética Dental de Alta Precisión',
+  description: 'Diseñamos sonrisas que transforman vidas. Combinamos ciencia, arte y tecnología para brindarte tratamientos personalizados con resultados naturales y duraderos.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
